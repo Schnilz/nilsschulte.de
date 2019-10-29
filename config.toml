@@ -1,0 +1,7 @@
+baseURL = "https://nilsschulte.de/"
+languageCode = "en-us"
+title = "nilsschulte.de"
+
+
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
