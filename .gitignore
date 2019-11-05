@@ -1,1 +1,3 @@
-public/
+public/*
+static/fonts/*
+resources/*
