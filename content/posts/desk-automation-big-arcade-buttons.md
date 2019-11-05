@@ -3,7 +3,7 @@ title: "Big shiny arcade buttons"
 date: 2019-11-05T08:20:43+01:00
 draft: false
 summary: Adding buttons to my "smart desk"
-images: [/static/img/buttons-aus.jpg, /static/img/buttons-switches-marked.jpg]
+images: [/static/img/buttons-anim.gif, /static/img/buttons-aus.jpg, /static/img/buttons-switches-marked.jpg]
 ---
 Last [post]({{< ref "/posts/desk-automation.md" >}}) i teased the next upgrade of my smart desk project which are some big arcade buttons to control the light even when my network is down. Well... 
 
@@ -82,6 +82,9 @@ The "transition_length: ...ms" parameter makes the LED fade in and out smoothly 
 After that there only was a case to design and 3D print. I settled for the classic highly complex[^3] box shape design as you can see in the image above.
 
 As you can see in the image i have another blue button next the the red one... not realy sure what to do with it right now, if i come up with something i'll probably do another post about it here ;)
+
+
+{{< figure src="/img/buttons-anim.gif">}}
 
 [^1]: You can find them easily when you search ebay or any other site that sells electronics from china
 [^2]: [Sparkfun](https://learn.sparkfun.com/tutorials/transistors/applications-i-switches) describes the basic circuit quite good
