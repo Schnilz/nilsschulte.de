@@ -1,6 +1,6 @@
 ---
 title: "Dabbling with micropython"
-date: 2019-11-1T19:13:24+01:00
+date: 2019-11-18T12:10:00+01:00
 draft: false
 summary: i wanted to know what all that fuss is about so i fianlly put micropython on the ESP32 ... 
 ---
