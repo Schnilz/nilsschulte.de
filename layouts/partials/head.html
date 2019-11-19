@@ -5,11 +5,9 @@
 		<title>{{ partial "title.txt" . }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="canonical" href="{{ .Permalink }}">
-
 		{{ range .AlternativeOutputFormats -}}
-			<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}" />
+		    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 		{{ end -}}
-
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 		<link rel="shortcut icon" type="image/x-icon" href="{{ .Site.BaseURL }}\img\favicon.ico" />

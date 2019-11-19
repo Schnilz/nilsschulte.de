@@ -5,3 +5,18 @@ title = "nilsschulte.de"
 
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
+
+
+[outputs]
+	home = ["HTML"]
+	section = ["HTML", "RSS", "Atom"]
+
+[mediaTypes."application/atom+xml"]
+	suffixes = ["xml"]
+
+[outputFormats.RSS]
+	mediaType = "application/xml"
+	baseName = "rss"
+[outputFormats.Atom]
+	mediaType = "application/atom+xml"
+	baseName = "atom"
