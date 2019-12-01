@@ -8,14 +8,14 @@ images: ["/static/img/led-cricle-rainbow.png"]
 
 This year for christmas i set myself the challange to not buy anything new to give away as presents.
 Better for the enviroment and forces me to get creative[^1] with the stuff i already have lying around.
-I ended up desgning something with my 3D-Printer and the fillament techincaly did lie around... not sure if that counts thogh ;)
+I ended up designing something with my 3D-Printer. The fillament techincaly did lie around... not sure if that counts though ;)
 
 
 Anyways, this is what i came up with:
 
 ![rainbow anim](/img/led-cricle-rainbow.png#center)
 
-It's a 3D-Printed enclosure with some paper glued to as a diffuser for LED lights. The brains is an ESP32 running micropython (which i praised in my last [post]({{< ref "/posts/dabbling-micropython.md" >}})).
+It's a 3D-Printed enclosure with some paper glued to as a diffuser for 32 RGB-LEDs. The brains is an ESP32 running micropython (which i praised in my last [post]({{< ref "/posts/dabbling-micropython.md" >}})).
 Right now it just plays 2 "animations" which you can switch between with a button on the bottom side of the case. A second button changes the brightness.
 That's all for the functionality at the moment. *BUT* when there is the inevitable break between meals on christmas i plan to create some more nice animations and try to expose a REST-Interface to be able to change animation and brighntess over the network.
 
