@@ -1,9 +1,9 @@
 ---
 title: "Building a animated RGB-LED Thingy"
 date: 2019-12-01T16:53:22+01:00
-draft: true
+draft: false
 summary:  "quick and dirty diy-christmas present(s)"
-images: [/static/img/led-cricle-rainbow.png]
+images: ["/static/img/led-cricle-rainbow.png"]
 ---
 
 This year for chrismas i set myself the challange to not buy anything new to give away as presents.
@@ -13,7 +13,7 @@ I ended up desgning something with my 3D-Printer and the fillament techincaly di
 
 Anyways this is what i came up with:
 
-{{< figure src="img/led-cricle-rainbow.png">}}
+![rainbow anim](/img/led-cricle-rainbow.png#center)
 
 Its a 3D-Printed enclosure with some paper glued to as a diffuser for LED lights. The Brains is an ESP32 running micropython (which i praised in my last [post]({{< ref "/posts/dabbling-micropython.md" >}})).
 Right now it just plays 2 "animations" which you can switch with a button on the bottom side of the case. A secound button changes the brightness.
