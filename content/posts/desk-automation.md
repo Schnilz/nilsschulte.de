@@ -5,10 +5,10 @@ draft: false
 summary: Let the computer turn on the lamp...
 images: [/static/img/lamp-relay-esp.png]
 ---
-Automation makes the life easier. At least thats what it should do...
+Automation makes the life easier. At least that's what it should do...
 In my case im not sure it actually did simplify my life as a few years later i own way more stuff and tools to build said automation than my small dorm room can handle.
 
-Most of the stuff i build is now living on my desk. Among other things that includes my "smart" desk lamp[^1], which is just a normal IKEA lamp[^2] with the power cord cut, a 2-Channel relay from ebay and an ESP32 (which is a microcontroler with WIFI). Thous things in combination allow me to turn the lamp on when its getting dark and off when i'm finally lying in bed, which would normally be way out of reach of the light switch.
+Most of the stuff i build is now living on my desk. Among other things that includes my "smart" desk lamp[^1], which is just a normal IKEA lamp[^2] with the power cord cut, a 2-Channel relay from ebay and an ESP32 (which is a microcontroller with WIFI). Thous things in combination allow me to turn the lamp on when its getting dark and off when i'm finally lying in bed, which would normally be way out of reach of the light switch.
 
 {{< figure src="/img/lamp-relay-esp.png" title="Relay wiring">}}
 
@@ -40,7 +40,7 @@ ota:
 
 switch:
   - platform: gpio
-    pin: 
+    pin:
       number: 33
       inverted: True
     name: "Schreibtischlampe"
@@ -55,14 +55,14 @@ web_server:
 logger:
 ```
 After the first flashing of the ESP you can update the firmware over the air which is quite nice.
-As you can see i defined a webserver which enables a REST-Api on the device.
+As you can see i defined a webserver which enables a REST-API on the device.
 To turn on the lamp on/off i can just type call a easy script which uses curl to make the request:
 ```bash
 #/bin/sh!
 curl -u <usr>:<pw>  -X POST http://192.168.222.20/switch/schreibtischlampe/toggle
 ```
 
-This setup already works but its actually not that good to only be able to control the lamp via a network connection. If thats down i can't turn on the light to fix[^3] the network connection which is bad cause then i cant turn on the light...
+This setup already works but its actually not that good to only be able to control the lamp via a network connection. If that's down i can't turn on the light to fix[^3] the network connection which is bad cause then i cant turn on the light...
 
 To escape that vicious circle of darkness i plan to add some nice tactile arcade buttons to my desk. Stay tuned for that!
 
