@@ -1,7 +1,11 @@
 baseURL = "https://nilsschulte.de/"
 languageCode = "en-us"
 title = "nilsschulte.de"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
+[author]
+	name = "Nils Schulte"
+	email = "blog@nilsschulte.de"
 
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
