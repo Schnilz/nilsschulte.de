@@ -1,27 +1,23 @@
+html {
+	background-color: black;
+	color: #dfdfdf;
+}
 
-	html {
-		background-color: black;
-		color: #dfdfdf;
-	}
-
-/* raleway-300 - latin */
+/* ubuntu-font */
 @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Raleway Light'), local('Raleway-Light'),
-         url('../fonts/raleway-v14-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/raleway-v14-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* raleway-700 - latin */
-  @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Raleway Bold'), local('Raleway-Bold'),
-         url('../fonts/raleway-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/raleway-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+    font-family: "UbuntuMono";
+    src: local('UbuntuMono-B'), url("../fonts/UbuntuMono-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "UbuntuMono";
+    src: local('UbuntuMono-RI'), url("../fonts/UbuntuMono-Italic.ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "UbuntuMono";
+    src: local('UbuntuMono-R'), url("../fonts/UbuntuMono-Regular.ttf");
+}
 
 #background {
     position: fixed;
@@ -53,7 +49,7 @@
 }
 
 body {
-	font-family: 'Raleway';
+	font-family: 'UbuntuMono';
 	display: flex;
 	flex-flow: row;
 	text-align: center;
