@@ -1,5 +1,5 @@
 ---
-title: "Building a animated RGB-LED thingy"
+title: "Building an animated RGB-LED thingy"
 date: 2019-12-01T16:53:22+01:00
 draft: false
 summary:  "Quick and dirty diy-christmas present(s) ..."
