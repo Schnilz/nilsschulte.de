@@ -2,7 +2,7 @@
 title: "Upload script for uPython"
 date: 2020-03-16T14:00:00+01:00
 draft: false
-summary: more on micropython
+summary: More on micropython ...
 ---
 
 My university exams for this semester are mostly done by now. And with all the corona-virus-measures the new semester doesn't start for another month. Hopefully I will finish some of those procrastinated projects of mine ;)

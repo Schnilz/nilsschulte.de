@@ -2,7 +2,7 @@
 title: "Big shiny arcade buttons"
 date: 2019-11-05T08:20:43+01:00
 draft: false
-summary: Adding buttons to my "smart desk"
+summary: Adding buttons to my "smart desk" ...
 images: [/static/img/buttons-anim.gif, /static/img/buttons-aus.jpg, /static/img/buttons-switches-marked.jpg]
 ---
 Last [post]({{< ref "/posts/desk-automation.md" >}}) i teased the next upgrade of my smart desk project which are some big arcade buttons to control the light even when my network is down. Well...

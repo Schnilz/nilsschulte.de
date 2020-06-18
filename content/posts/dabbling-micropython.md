@@ -2,9 +2,8 @@
 title: "Dabbling with micropython"
 date: 2019-11-18T12:10:00+01:00
 draft: false
-summary: i wanted to know what all that fuss is about so i fianlly put micropython on the ESP32 ... 
+summary: Whats is all that fuss about? micropython on the ESP32 ... 
 ---
-
 [micropython](https://micropython.org/) is python for microcontroller. When i first heard about it i wasn't really sure what to think about it as python is a really high level language and now that should run on a microcontroller ? no way, that has to be a slow mess...
 
 Turns out its not :D

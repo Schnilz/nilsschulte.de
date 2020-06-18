@@ -2,7 +2,7 @@
 title: "Hello, World!"
 date: 2019-10-26T21:11:15+02:00
 draft: false
-summary: Does the world need another blog ? Yes!...
+summary: Does the world need another blog ? Yes! ...
 images:
 ---
 

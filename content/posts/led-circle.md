@@ -1,8 +1,8 @@
 ---
-title: "Building a animated RGB-LED Thingy"
+title: "Building a animated RGB-LED thingy"
 date: 2019-12-01T16:53:22+01:00
 draft: false
-summary:  "quick and dirty diy-christmas present(s)"
+summary:  "Quick and dirty diy-christmas present(s) ..."
 images: ["/static/img/led-cricle-rainbow.png"]
 ---
 
