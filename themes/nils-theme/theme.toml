@@ -1,0 +1,12 @@
+name = "nils-theme"
+license = "GPL"
+licenselink = "https://github.com/schnilz/nilsschulte.de/blob/master/LICENSE.md"
+description = "A simple theme"
+tags = ["blog", "theme", "hyde", "highlight.js", "font-awesome", "google analytics", "disqus", "personal", "syntax highlighting", "responsive", "graphcomment"]
+features = ["blog", "theme", "highlight.js", "font-awesome", "responsive", "disqus", "graphcomment", "portfolio"]
+min_version = "0.01"
+
+[author]
+    name = "Nils Schulte"
+    homepage = "https://nilsschulte.de"
+

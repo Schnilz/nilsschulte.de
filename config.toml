@@ -3,10 +3,18 @@ languageCode = "en-us"
 title = "nilsschulte.de"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
+theme = "nils-theme"
 [author]
 	name = "Nils Schulte"
 	email = "blog@nilsschulte.de"
 
+[params]
+author = "Nils Schulte"
+description = "Nils' Blog"
+
+## Set one of:
+# gravatar = "soho@example.com"
+profilePicture = "img/triangels.png"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 
