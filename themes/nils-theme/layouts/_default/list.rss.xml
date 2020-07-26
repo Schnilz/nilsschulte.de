@@ -3,7 +3,7 @@
   <channel>
     <title>{{ .Site.Title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>{{ .Site.Description }}</description>
+    <description>{{ .Site.Params.description }}</description>
     <image><url>{{ .Site.BaseURL }}img/favicon.ico</url></image>
     <generator>Hugo</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}

@@ -1,6 +1,7 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ .Site.Title }}</title>
+  <subtitle>{{ .Site.Params.description }}</subtitle>
   <link href="{{ .Permalink }}"/>
   {{ with .OutputFormats.Get "Atom" }}
     {{ printf "<link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
