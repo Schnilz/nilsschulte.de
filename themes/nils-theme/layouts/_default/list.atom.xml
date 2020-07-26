@@ -10,6 +10,7 @@
 	  {{ with $.Site.Author.name }}<name>{{.}}</name>{{end}}
 	  {{ with $.Site.Author.email }}<email>{{.}}</email>{{end}}
   </author>
+  <icon>{{ .Site.BaseURL }}img/favicon.ico</icon>
   <generator>Hugo</generator>
   <id>{{ .Permalink }}</id>
   {{ range first 15 .Pages }}
